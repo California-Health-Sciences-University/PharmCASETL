@@ -1,0 +1,148 @@
+﻿                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <img alt="" style="cursor: pointer" src="images/btn_plus_default.png" />
+                            <asp:Panel ID="pnlMailingAddress" runat="server" Style="display: none">
+                                <asp:GridView ID="gvMailingAddress" runat="server" AutoGenerateColumns="false" CssClass="ChildGrid">
+                                    <Columns>
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source System" HeaderText="Source System" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source ID" HeaderText="Source ID"  Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Jenzabar ID" HeaderText="Jenzabar ID" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="last_name" HeaderText="Last Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="first_name" HeaderText="First Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="middle_name" HeaderText="Middle Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="preferred" HeaderText="Preferred" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Type" HeaderText="Type" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="e_mail" HeaderText="Email" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address1" HeaderText="Address 1" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address2" HeaderText="Address 2" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="City" HeaderText="City" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="State" HeaderText="State" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Zip" HeaderText="Zip" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="County" HeaderText="County" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Country" HeaderText="Country" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Phone" HeaderText="Phone" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="cell_phone" HeaderText="Cell Phone" />
+                                    </Columns>
+                                </asp:GridView>
+                            </asp:Panel>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <img alt="" style="cursor: pointer" src="images/btn_plus_default.png" />
+                            <asp:Panel ID="pnlLocalAddress" runat="server" Style="display: none">
+                                <asp:GridView ID="gvLocalAddress" runat="server" AutoGenerateColumns="false" CssClass="ChildGrid">
+                                    <Columns>
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source System" HeaderText="Source System" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source ID" HeaderText="Source ID" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Jenzabar ID" HeaderText="Jenzabar ID" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="last_name" HeaderText="Last Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="first_name" HeaderText="First Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="middle_name" HeaderText="Middle Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="preferred" HeaderText="Preferred" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Type" HeaderText="Type" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="e_mail" HeaderText="Email" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address1" HeaderText="Address 1" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address2" HeaderText="Address 2" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="City" HeaderText="City" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="State" HeaderText="State" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Zip" HeaderText="Zip" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="County" HeaderText="County" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Country" HeaderText="Country" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Phone" HeaderText="Phone" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="cell_phone" HeaderText="Cell Phone" />
+                                    </Columns>
+                                </asp:GridView>
+                            </asp:Panel>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField>
+                        <ItemTemplate>
+                            <img alt="" style="cursor: pointer" src="images/btn_plus_default.png" />
+                            <asp:Panel ID="pnlPermanentAddress" runat="server" Style="display: none">
+                                <asp:GridView ID="gvPermanentAddress" runat="server" AutoGenerateColumns="false" CssClass="ChildGrid">
+                                    <Columns>
+
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source System" HeaderText="Source System" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source ID" HeaderText="Source ID" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Jenzabar ID" HeaderText="Jenzabar ID" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="last_name" HeaderText="Last Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="first_name" HeaderText="First Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="middle_name" HeaderText="Middle Name" Visible="false"  />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="preferred" HeaderText="Preferred" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Type" HeaderText="Type" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="e_mail" HeaderText="Email" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address1" HeaderText="Address 1" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Address2" HeaderText="Address 2" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="City" HeaderText="City" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="State" HeaderText="State" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Zip" HeaderText="Zip" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="County" HeaderText="County" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Country" HeaderText="Country" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Phone" HeaderText="Phone" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="cell_phone" HeaderText="Cell Phone" />
+                                    </Columns>
+                                </asp:GridView>
+                            </asp:Panel>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+
+
+
+					
+            <ajaxToolkit:Accordion ID="Accordion1" runat="server">
+                <Panes>
+                    <ajaxToolkit:AccordionPane ID="EducationPane" runat="server">
+                        <Header>
+                        </Header>
+                        <Content>
+                        </Content>
+                    </ajaxToolkit:AccordionPane>
+
+                    <ajaxToolkit:AccordionPane ID="MailingAddressPane" runat="server">
+                        <Header>
+                        </Header>
+                        <Content>
+                        </Content>
+                    </ajaxToolkit:AccordionPane>
+                    <ajaxToolkit:AccordionPane ID="LocalAddressPane" runat="server">
+
+                        <Header>
+                        </Header>
+                        <Content>
+                        </Content>
+                    </ajaxToolkit:AccordionPane>
+                    <ajaxToolkit:AccordionPane ID="PermanentAddressPane" runat="server">
+                        <Header>
+                        </Header>
+                        <Content>
+                        </Content>
+                    </ajaxToolkit:AccordionPane>
+                </Panes>
+            </ajaxToolkit:Accordion>
+ <asp:TemplateField>
+                        <ItemTemplate>
+                            <img alt="" style="cursor: pointer" src="images/plus.png" />
+                            <asp:Panel ID="pnlEducation" runat="server" Style="display: none">
+                                <asp:GridView ID="gvEducation" runat="server" AutoGenerateColumns="false" CssClass="ChildGrid">
+                                    <Columns>
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source System" HeaderText="Source System" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Source ID" HeaderText="Source ID" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Jenzabar ID" HeaderText="Jenzabar ID" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="last_name" HeaderText="Last Name" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="first_name" HeaderText="First Name" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="middle_name" HeaderText="Middle Name" Visible="false" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="graduated" HeaderText="Graduated" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Institution_uniqueid" HeaderText="Institution ID" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Institution_txt" HeaderText="Institution Name" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Degree" HeaderText="Degree" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="GPA" HeaderText="GPA" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="Credits" HeaderText="Credits" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="quality_points" HeaderText="Quality Points" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="graduation_date" HeaderText="Graduation Date" />
+                                        <asp:BoundField ItemStyle-Width="150px" DataField="cohort_code" HeaderText="Cohort" />
+                                    </Columns>
+                                </asp:GridView>
+                            </asp:Panel>
+                        </ItemTemplate>
+                    </asp:TemplateField>
